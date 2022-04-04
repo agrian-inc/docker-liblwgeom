@@ -14,7 +14,7 @@ RUN apt-get update -yqq \
   libgeos-dev \
   libproj-dev \
   libxml2-dev \
-  postgresql-server-dev-all \
+  postgresql-server-dev-11 \
   && curl -sSf -L -O "https://download.osgeo.org/postgis/source/postgis-2.5.5.tar.gz" \
   && tar -zxvf postgis-2.5.5.tar.gz \
   && cd postgis-2.5.5 \
